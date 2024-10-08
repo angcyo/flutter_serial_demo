@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
 import 'package:usb_serial/usb_serial.dart';
 
-var logger = Logger();
+final logger = Logger();
 
 void main() {
   runApp(const MyApp());
